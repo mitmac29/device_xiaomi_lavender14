@@ -14,6 +14,9 @@ $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+WITH_GMS_MINIMAL := true
+$(call inherit-product, vendor/partner_gms/products/gms_minimal.mk)
+
 PRODUCT_NAME := aicp_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
