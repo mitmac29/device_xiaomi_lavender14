@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_lavender.mk
+    $(LOCAL_DIR)/pixelstar_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_lavender-userdebug
+    pixelstar_lavender-userdebug
