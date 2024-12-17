@@ -6,6 +6,8 @@
 
 DEVICE_PATH := device/xiaomi/lavender
 
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.1-impl:32 \
