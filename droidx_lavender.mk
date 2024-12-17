@@ -9,15 +9,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-#WITH_GMS_MINIMAL := true
-#$(call inherit-product, vendor/partner_gms/products/gms_minimal.mk)
+# Boot animaton
+TARGET_BOOT_ANIMATION_RES := 720
 
-PRODUCT_NAME := aicp_lavender
+# DroidX-UI additions
+DROIDX_BUILD_TYPE := UNOFFICIAL
+DROIDX_GAPPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+PRODUCT_NAME := droidx_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
