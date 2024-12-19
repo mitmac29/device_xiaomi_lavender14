@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/droidx_lavender.mk
+    $(LOCAL_DIR)/lineage_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    droidx_lavender-userdebug \
-    droidx_lavender-user \
-    droidx_lavender-eng
+    lineage_lavender-userdebug \
+    lineage_lavender-user \
+    lineage_lavender-eng
