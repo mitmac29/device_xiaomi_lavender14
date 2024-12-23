@@ -18,6 +18,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := true
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
+MATRIXX_MAINTAINER := MiTESH
 
 PRODUCT_NAME := lineage_lavender
 PRODUCT_BRAND := Xiaomi
