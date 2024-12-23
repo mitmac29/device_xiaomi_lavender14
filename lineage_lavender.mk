@@ -15,8 +15,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Boot animaton
-TARGET_BOOT_ANIMATION_RES := 720
-MATRIXX_BUILD_VARIANT := Vanilla
+TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GMS := true
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
 
 PRODUCT_NAME := lineage_lavender
