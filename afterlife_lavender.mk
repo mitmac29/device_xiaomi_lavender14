@@ -17,6 +17,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 1080
 AFTERLIFE_GAPPS := true
+AFTERLIFE_ZIP_TYPE := CoreGApps
 AFTERLIFE_MAINTAINER := Ritik
 
 PRODUCT_NAME := afterlife_lavender
