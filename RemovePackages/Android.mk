@@ -7,8 +7,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
     arcore \
-    Chrome \
-    Chrome-Stub \
     ConnMO \
     ConnMetrics \
     DCMO \
@@ -41,7 +39,9 @@ LOCAL_OVERRIDES_PACKAGES := \
     VZWAPNLib \
     VzwOmaTrigger \
     YouTube \
-    YouTubeMusicPrebuilt
+    YouTubeMusicPrebuilt \
+    Photos \ 
+    Velvet
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
