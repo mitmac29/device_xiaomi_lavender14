@@ -15,10 +15,38 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Boot animaton
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 WITH_GMS := true
-TARGET_BUILD_DEVICE_AS_WEBCAM := true
-MATRIXX_MAINTAINER := MiTESH
+# Device config
+TARGET_HAS_UDFPS := false
+TARGET_ENABLE_BLUR := fass
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# TARGET_BUILD_PACKAGE options:
+# 1 - vanilla (default)
+# 2 - microg
+# 3 - gapps
+TARGET_BUILD_PACKAGE := 3
+
+TARGET_INCLUDE_LAWNCHAIR := true
+
+# GAPPS (valid only for GAPPS builds)
+TARGET_INCLUDE_PIXEL_LAUNCHER := false
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+
+# Extras
+TARGET_INCLUDE_RIMUSIC := true
+
+# Debugging
+TARGET_INCLUDE_MATLOG := false
+
+# Maintainer
+ALPHA_MAINTAINER := MiTESH
 
 PRODUCT_NAME := lineage_lavender
 PRODUCT_BRAND := Xiaomi
