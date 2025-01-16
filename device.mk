@@ -6,7 +6,7 @@
 
 DEVICE_PATH := device/xiaomi/lavender
 
-#$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
