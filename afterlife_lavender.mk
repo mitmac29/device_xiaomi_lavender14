@@ -18,7 +18,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 AFTERLIFE_GAPPS := true
 AFTERLIFE_ZIP_TYPE := CoreGApps
-AFTERLIFE_MAINTAINER := Ritik
+AFTERLIFE_MAINTAINER := MiTESH
 
 PRODUCT_NAME := afterlife_lavender
 PRODUCT_BRAND := Xiaomi
