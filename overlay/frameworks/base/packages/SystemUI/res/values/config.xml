@@ -34,7 +34,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <bool name="doze_display_state_supported">true</bool>
 
     <!-- The CPU temperature divider, if needed -->
-    <integer name="config_cpuTempDivider" translatable="true">1000</integer>
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
 
     <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
     <bool name="config_show4GForLTE">true</bool>    
@@ -72,9 +72,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <!-- The CPU temperature sensor path, defaults to empty -->
     <string name="config_cpuTempSensor" translatable="true">/sys/class/thermal/thermal_zone0/temp</string>
-
-    <!-- The CPU temperature divider, if needed -->
-    <integer name="config_cpuTempDivider" translatable="true">1</integer>
 
     <!-- The CPUs to display in CPUInfoService view -->
     <string name="config_displayCpus" translatable="true"></string>
