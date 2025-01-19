@@ -81,5 +81,4 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <!-- FPS measure interval in milliseconds, default 1000 -->
     <integer name="config_fpsReadInterval">1000</integer>
-</resources>    
 </resources>
