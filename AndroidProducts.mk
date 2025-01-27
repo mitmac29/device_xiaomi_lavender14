@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/afterlife_lavender.mk
+    $(LOCAL_DIR)/ethereal_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
     ethereal_lavender-userdebug \
