@@ -15,7 +15,7 @@ $(call inherit-product, vendor/ethereal/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Boot animaton
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 ETHEREAL_MAINTAINER := MiTESH
 
