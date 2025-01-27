@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/afterlife_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    afterlife_lavender-userdebug \
-    afterlife_lavender-user \
-    afterlife_lavender-eng
+    ethereal_lavender-userdebug \
+    ethereal_lavender-user \
+    ethereal_lavender-eng
